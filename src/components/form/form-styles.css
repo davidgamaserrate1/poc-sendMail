@@ -1,0 +1,43 @@
+#send-mail{
+    display: flex;
+    justify-content: center;
+    margin: 10vh calc(50vw - 40vh);
+    background: #f0f0f0f0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.send-mail_legend{
+    display: flex;
+    justify-content: center;
+    margin: 10vh calc(50vw - 40vh);
+    font-size: 30px;
+    border-bottom: 2px solid #f0f0f0f0;
+    padding: 15px;
+}
+
+.send-mail_form{
+    display: flex;
+    width: 210px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.send-mail_input{
+    margin: 5px;
+  
+}
+
+.send-mail_label{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.send-mail_send{
+    text-transform: uppercase;
+}
+.send-mail_send:hover{
+    cursor: pointer;
+}
